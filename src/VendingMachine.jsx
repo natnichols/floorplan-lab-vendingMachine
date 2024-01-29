@@ -3,7 +3,7 @@ import Soda from "./Soda";
 const VendingMachine = () => {
   return ( 
     <div>
-      Hello Vending Machine World
+      Ghost with a Dollar's Vending Machine
       <Soda />
     </div>
   )
