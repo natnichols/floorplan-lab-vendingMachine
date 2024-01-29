@@ -1,6 +1,11 @@
+import Soda from "./Soda";
+
 const VendingMachine = () => {
   return ( 
-    <h1>Hello Vending Machine World</h1>
+    <div>
+      Hello Vending Machine World
+      <Soda />
+    </div>
   )
 }
 
