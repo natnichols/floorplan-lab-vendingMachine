@@ -1,5 +1,6 @@
 import Drink from "./Drink";
 import Candy from "./Candy";
+import Chip from "./Chip";
 
 const VendingMachine = () => {
   return ( 
@@ -16,6 +17,10 @@ const VendingMachine = () => {
         <Candy candy={{name: "Twizzlers", size: "small", quantity: "20" }} />
         <Candy candy={{name: "Junior Mints", size: "large", quantity: "18" }} />
         <Candy candy={{name: "Milky Way Midnight", size: "small", quantity: "21" }} />
+      </div>
+      <div>
+        <h3>Chips:</h3>
+        <Chip />
       </div>
     </div>
   )
