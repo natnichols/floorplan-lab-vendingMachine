@@ -2,10 +2,10 @@ const Drink = (props) => {
   return ( 
     <div>
       <h2>Drinks</h2>
-      {props.name}:
-      <li>Quantity: {props.quantity}</li>
-      <li>Carbonated: {props.quantity}</li>
-      <li>Sugar-Free: {props.quantity}</li>
+      {props.drink.name}:
+      <li>Quantity: {props.drink.quantity}</li>
+      <li>{props.drink.fizz === 1 ? "Carbonated" : "Non-Carbonated" }</li>
+      <li>{props.drink.buzz === 1 ? "Caffeinated" : "Non-Caffeinated" }</li>
       
     </div>
   )
