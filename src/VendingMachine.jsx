@@ -21,6 +21,8 @@ const VendingMachine = () => {
       <div>
         <h3>Chips:</h3>
         <Chip chip={{name: "Classic Baked Lays", quantity: "7", vegan:1, gluten:0 }} />
+        <Chip chip={{name: "Nacho Cheese Doritos", quantity: "6", vegan:0, gluten:1 }} />
+        <Chip chip={{name: "Pretzels", quantity: "8", vegan:1, gluten:1 }} />
       </div>
     </div>
   )
