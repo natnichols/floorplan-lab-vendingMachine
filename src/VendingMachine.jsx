@@ -20,7 +20,7 @@ const VendingMachine = () => {
       </div>
       <div>
         <h3>Chips:</h3>
-        <Chip />
+        <Chip chip={{name: "Classic Baked Lays", quantity: "7", vegan:1, gluten:0 }} />
       </div>
     </div>
   )
