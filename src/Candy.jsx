@@ -1,7 +1,7 @@
 const Candy = (props) => {
   return ( 
     <div>
-      Candy
+      {props.candy.name}, {props.candy.size} ({props.candy.quantity})
     </div>
   )
 }

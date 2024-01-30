@@ -13,7 +13,9 @@ const VendingMachine = () => {
       </div>
       <div>
         <h3>Candy:</h3>
-        <Candy />
+        <Candy candy={{name: "Twizzlers", size: "small", quantity: "20" }} />
+        <Candy candy={{name: "Junior Mints", size: "large", quantity: "18" }} />
+        <Candy candy={{name: "Milky Way Midnight", size: "small", quantity: "21" }} />
       </div>
     </div>
   )
