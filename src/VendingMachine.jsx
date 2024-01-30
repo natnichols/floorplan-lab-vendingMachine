@@ -1,10 +1,10 @@
-import Soda from "./Soda";
+import Drink from "./Drink";
 
 const VendingMachine = () => {
   return ( 
     <div>
       Ghost with a Dollar's Vending Machine
-      <Soda />
+      <Drink />
     </div>
   )
 }
